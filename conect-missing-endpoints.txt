@@ -1,0 +1,1 @@
+app.get('/savings-history', (req, res) => res.json([]));
