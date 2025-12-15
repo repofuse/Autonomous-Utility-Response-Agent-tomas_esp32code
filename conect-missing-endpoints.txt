@@ -1,0 +1,2 @@
+app.get('/api/active', (req, res) => res.json([]));
+app.get('/api/claim', (req, res) => res.json({}));
