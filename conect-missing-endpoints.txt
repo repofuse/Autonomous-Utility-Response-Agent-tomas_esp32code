@@ -1,0 +1,3 @@
+app.get('/savings-history', (req, res) => res.json([]));
+app.get('/api/active', (req, res) => res.json({ active: true }));
+app.get('/api/claim', (req, res) => res.json({ claim: true }));
